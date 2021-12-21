@@ -55,13 +55,6 @@ public class ItemGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        void OnBecameInvisible()
-        {
-            if(gameObject.tag == "CarTag" || gameObject.tag == "ConeTag" || gameObject.tag == "CoinTag")
-            {
-                GameObject.Destroy(this.gameObject);
-            }
-        }
+    
     }
 }
